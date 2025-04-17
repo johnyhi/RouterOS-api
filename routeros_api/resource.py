@@ -19,7 +19,7 @@ class RouterOsBinaryResource(object):
         return self.call('set', kwargs)
 
     def set_async(self, **kwargs):
-        return self.call('set', kwargs)
+        return self.call_async('set', kwargs)
 
     def add(self, **kwargs):
         return self.call('add', kwargs)
